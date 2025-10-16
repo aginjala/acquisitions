@@ -1,0 +1,27 @@
+{"level":"info","message":"Hello, from Acquisitions!","service":"acquisitions-api","timestamp":"2025-10-16 13:59:11"}
+{"level":"info","message":"::1 - - [16/Oct/2025:17:59:11 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-10-16 13:59:11"}
+{"level":"info","message":"Hello, from Acquisitions!","service":"acquisitions-api","timestamp":"2025-10-16 16:03:50"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:03:50 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-10-16 16:03:50"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:04:00 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-10-16 16:04:00"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:04:09 +0000] \"GET /api/auth/signin HTTP/1.1\" 404 154 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-10-16 16:04:09"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:04:21 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-10-16 16:04:21"}
+{"level":"info","message":"Hello, from Acquisitions!","service":"acquisitions-api","timestamp":"2025-10-16 16:07:31"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:07:31 +0000] \"GET / HTTP/1.1\" 200 25 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 16:07:31"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:07:41 +0000] \"POST /api HTTP/1.1\" 404 143 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 16:07:41"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:07:47 +0000] \"POST /api/auth/signin HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 16:07:47"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:08:45 +0000] \"POST /api HTTP/1.1\" 404 143 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 16:08:45"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:08:47 +0000] \"POST /api HTTP/1.1\" 404 143 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 16:08:47"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:08:50 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 16:08:50"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:08:59 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 16:08:59"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:47:36 +0000] \"POST /signup HTTP/1.1\" 404 146 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 16:47:36"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:47:47 +0000] \"POST /api/auth/signup HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 16:47:47"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:48:55 +0000] \"POST /api/auth/signup HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 16:48:55"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:49:08 +0000] \"POST /api/auth/signup HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 16:49:08"}
+{"level":"info","message":"User signed up: test (test@test.com) with role user","service":"acquisitions-api","timestamp":"2025-10-16 16:49:18"}
+{"level":"info","message":"::1 - - [16/Oct/2025:20:49:18 +0000] \"POST /api/auth/signup HTTP/1.1\" 201 100 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 16:49:18"}
+{"level":"info","message":"User admin@devpractice.com created successfully:","service":"acquisitions-api","timestamp":"2025-10-16 17:10:52"}
+{"level":"info","message":"User signed up: Admin (admin@devpractice.com) with role admin","service":"acquisitions-api","timestamp":"2025-10-16 17:10:52"}
+{"level":"info","message":"::1 - - [16/Oct/2025:21:10:52 +0000] \"POST /api/auth/signup HTTP/1.1\" 201 110 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 17:10:52"}
+{"level":"info","message":"User ashu@devpractice.com created successfully:","service":"acquisitions-api","timestamp":"2025-10-16 17:11:43"}
+{"level":"info","message":"User signed up: Ashu (ashu@devpractice.com) with role user","service":"acquisitions-api","timestamp":"2025-10-16 17:11:43"}
+{"level":"info","message":"::1 - - [16/Oct/2025:21:11:43 +0000] \"POST /api/auth/signup HTTP/1.1\" 201 107 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 17:11:43"}
