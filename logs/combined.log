@@ -38,3 +38,11 @@
 {"level":"info","message":"User admin@devpractice.com authenticated successfully","service":"acquisitions-api","timestamp":"2025-10-16 17:28:29"}
 {"level":"info","message":"User signed in: Admin (admin@devpractice.com)","service":"acquisitions-api","timestamp":"2025-10-16 17:28:29"}
 {"level":"info","message":"::1 - - [16/Oct/2025:21:28:29 +0000] \"POST /api/auth/signin HTTP/1.1\" 200 110 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 17:28:29"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api","timestamp":"2025-10-16 17:31:55"}
+{"level":"info","message":"::1 - - [16/Oct/2025:21:31:55 +0000] \"POST /api/auth/signout HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 17:31:55"}
+{"level":"error","message":"Failed to authenticate user: User not found","service":"acquisitions-api","stack":"Error: User not found\n    at authenticateUser (file:///D:/DevPractice/DevOps/acquisitions/src/services/auth.service.js:37:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signin (file:///D:/DevPractice/DevOps/acquisitions/src/controllers/auth.controller.js:63:18)","timestamp":"2025-10-16 17:32:06"}
+{"level":"error","message":"Signin error: User not found","service":"acquisitions-api","stack":"Error: User not found\n    at authenticateUser (file:///D:/DevPractice/DevOps/acquisitions/src/services/auth.service.js:37:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signin (file:///D:/DevPractice/DevOps/acquisitions/src/controllers/auth.controller.js:63:18)","timestamp":"2025-10-16 17:32:06"}
+{"level":"info","message":"::1 - - [16/Oct/2025:21:32:06 +0000] \"POST /api/auth/signin HTTP/1.1\" 401 37 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 17:32:06"}
+{"level":"info","message":"User admin@devpractice.com authenticated successfully","service":"acquisitions-api","timestamp":"2025-10-16 17:32:12"}
+{"level":"info","message":"User signed in: Admin (admin@devpractice.com)","service":"acquisitions-api","timestamp":"2025-10-16 17:32:12"}
+{"level":"info","message":"::1 - - [16/Oct/2025:21:32:12 +0000] \"POST /api/auth/signin HTTP/1.1\" 200 110 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-16 17:32:12"}
